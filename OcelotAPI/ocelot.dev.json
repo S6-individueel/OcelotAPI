@@ -10,7 +10,11 @@
         }
       ],
       "UpstreamPathTemplate": "/api/authentication",
-      "UpstreamHttpMethod": [ "Get", "Post" ]
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
     },
     {
       "DownstreamPathTemplate": "/api/authentication/{id}",
@@ -22,7 +26,11 @@
         }
       ],
       "UpstreamPathTemplate": "/api/authentication/{id}",
-      "UpstreamHttpMethod": [ "Get", "Delete", "Patch" ]
+      "UpstreamHttpMethod": [ "Get", "Delete", "Patch" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
     },
     {
       "DownstreamPathTemplate": "/api/movie/top-rated",
@@ -46,7 +54,11 @@
         }
       ],
       "UpstreamPathTemplate": "/api/movie/clear-cache",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
     },
     {
       "DownstreamPathTemplate": "/api/rating",
@@ -58,7 +70,11 @@
         }
       ],
       "UpstreamPathTemplate": "/api/rating",
-      "UpstreamHttpMethod": [ "Get", "Post" ]
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
     },
     {
       "DownstreamPathTemplate": "/api/rating/{id}",
@@ -70,7 +86,11 @@
         }
       ],
       "UpstreamPathTemplate": "/api/rating/{id}",
-      "UpstreamHttpMethod": [ "Get", "Patch", "Delete" ]
+      "UpstreamHttpMethod": [ "Get", "Patch", "Delete" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
     },
     {
       "DownstreamPathTemplate": "/api/rating/movie/{id}",
@@ -94,7 +114,11 @@
         }
       ],
       "UpstreamPathTemplate": "/api/rating/user/{id}",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
     },
     {
       "DownstreamPathTemplate": "/api/comment",
@@ -106,7 +130,11 @@
         }
       ],
       "UpstreamPathTemplate": "/api/comment",
-      "UpstreamHttpMethod": [ "Get", "Post" ]
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
     },
     {
       "DownstreamPathTemplate": "/api/comment/{id}",
@@ -118,7 +146,11 @@
         }
       ],
       "UpstreamPathTemplate": "/api/comment/{id}",
-      "UpstreamHttpMethod": [ "Get", "Patch", "Delete" ]
+      "UpstreamHttpMethod": [ "Get", "Patch", "Delete" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
     },
     {
       "DownstreamPathTemplate": "/api/comment/movie/{id}",
@@ -142,6 +174,22 @@
         }
       ],
       "UpstreamPathTemplate": "/api/comment/user/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/authorisation",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5051
+        }
+      ],
+      "UpstreamPathTemplate": "/api/authorisation",
       "UpstreamHttpMethod": [ "Get" ]
     }
   ],
