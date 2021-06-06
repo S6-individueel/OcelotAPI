@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ElyFluRHu2qp9dcXJWuPeZZ1Xtc6xlwqoe+JvNjfOTkxlcHN31BdmjqPVZysKjHO0L3gD+NZEVP3KKH/q/9rxg==",
+  "dgSpecHash": "DAdh6K5HunLPgjVwEtii+lqXkDNjjLQJeplzXZ30VDIpCRvr+Z8vLJQFr4eJXX29hnRdvEtDu4vNGaQRulaQYQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Freaqke\\Desktop\\S6-individueel\\OcelotAPI\\OcelotAPI\\OcelotAPI.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "C:\\Users\\Freaqke\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.7.1\\microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
     "C:\\Users\\Freaqke\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.11.1\\microsoft.identitymodel.tokens.6.11.1.nupkg.sha512",
     "C:\\Users\\Freaqke\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Freaqke\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
     "C:\\Users\\Freaqke\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Freaqke\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\Freaqke\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",

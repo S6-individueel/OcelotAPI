@@ -190,19 +190,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/authorisation",
-      "ServiceName": "TestService",
       "UpstreamHttpMethod": [ "Get" ]
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:5021",
-    "RequestIdKey": "OcRequestId",
-    "AdministrationPath": "/administration",
-    "UseServiceDiscovery": true,
-    "ServiceDiscoveryProvider": {
-      "Type": "Eureka",
-      "Host": "localhost",
-      "Port": "8761"
-    }
+    "BaseUrl": "http://localhost:5020"
   }
 }

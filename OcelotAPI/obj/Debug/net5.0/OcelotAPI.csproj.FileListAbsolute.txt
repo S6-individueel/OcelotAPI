@@ -17,7 +17,6 @@ C:\Users\Freaqke\Desktop\S6-individueel\OcelotAPI\OcelotAPI\bin\Debug\net5.0\Mic
 C:\Users\Freaqke\Desktop\S6-individueel\OcelotAPI\OcelotAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Freaqke\Desktop\S6-individueel\OcelotAPI\OcelotAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\Freaqke\Desktop\S6-individueel\OcelotAPI\OcelotAPI\bin\Debug\net5.0\Ocelot.dll
-C:\Users\Freaqke\Desktop\S6-individueel\OcelotAPI\OcelotAPI\obj\Debug\net5.0\OcelotAPI.csprojAssemblyReference.cache
 C:\Users\Freaqke\Desktop\S6-individueel\OcelotAPI\OcelotAPI\obj\Debug\net5.0\OcelotAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Freaqke\Desktop\S6-individueel\OcelotAPI\OcelotAPI\obj\Debug\net5.0\OcelotAPI.AssemblyInfoInputs.cache
 C:\Users\Freaqke\Desktop\S6-individueel\OcelotAPI\OcelotAPI\obj\Debug\net5.0\OcelotAPI.AssemblyInfo.cs
@@ -52,3 +51,4 @@ C:\Users\Freaqke\Desktop\S6-individueel\OcelotAPI\OcelotAPI\bin\Debug\net5.0\Ste
 C:\Users\Freaqke\Desktop\S6-individueel\OcelotAPI\OcelotAPI\bin\Debug\net5.0\Steeltoe.Discovery.Eureka.dll
 C:\Users\Freaqke\Desktop\S6-individueel\OcelotAPI\OcelotAPI\bin\Debug\net5.0\Steeltoe.Extensions.Configuration.Abstractions.dll
 C:\Users\Freaqke\Desktop\S6-individueel\OcelotAPI\OcelotAPI\bin\Debug\net5.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\Freaqke\Desktop\S6-individueel\OcelotAPI\OcelotAPI\obj\Debug\net5.0\OcelotAPI.csprojAssemblyReference.cache
