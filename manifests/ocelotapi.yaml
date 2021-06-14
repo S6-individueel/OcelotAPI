@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ocelotapi
+  labels: 
+    app: ocelotapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ocelotapi
+  template:
+    metadata:
+      labels:
+        app: ocelotapi
+    spec:
+      containers:
+      - name: ocelotapi
+        image: acrvod.azurecr.io/ocelotapi:v1
+        imagePullPolicy: IfNotPresent
+        ports:
+          - containerPort: 80
+        env:
+          - name: ASPNETCORE_ENVIRONMENT
+            value: kube
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "0.1"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+      imagePullSecrets:
+        - name: acr-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ocelotapi
+  labels:
+    app: ocelotapi
+spec:
+  type: LoadBalancer
+  selector:
+    app: ocelotapi
+  ports:
+  - protocol: TCP
+    port: 80
+
+
