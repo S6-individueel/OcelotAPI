@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using Ocelot.Provider.Kubernetes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -51,7 +52,7 @@ namespace OcelotAPI
               x.TokenValidationParameters = tokenValidationParameters;
           });
 
-            services.AddOcelot(Configuration);
+            services.AddOcelot(Configuration).AddKubernetes(); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

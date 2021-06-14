@@ -62,6 +62,10 @@
             "Ocelot.Provider.Eureka": {
               "target": "Package",
               "version": "[17.0.0, )"
+            },
+            "Ocelot.Provider.Kubernetes": {
+              "target": "Package",
+              "version": "[17.0.0, )"
             }
           },
           "imports": [

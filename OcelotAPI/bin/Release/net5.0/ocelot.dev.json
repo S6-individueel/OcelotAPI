@@ -2,15 +2,27 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/api/authentication",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5001
+          "Port": 5000
         }
       ],
       "UpstreamPathTemplate": "/api/authentication",
-      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/authentication",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/authentication",
+      "UpstreamHttpMethod": [ "Get" ],
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "TestKey",
         "AllowedScopes": []
@@ -18,11 +30,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/authentication/{id}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5001
+          "Port": 5000
         }
       ],
       "UpstreamPathTemplate": "/api/authentication/{id}",
@@ -34,11 +46,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/movie/top-rated",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5011
+          "Port": 5010
         }
       ],
       "UpstreamPathTemplate": "/api/movie/top-rated",
@@ -46,11 +58,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/movie/clear-cache",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5011
+          "Port": 5010
         }
       ],
       "UpstreamPathTemplate": "/api/movie/clear-cache",
@@ -62,11 +74,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/rating",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5031
+          "Port": 5030
         }
       ],
       "UpstreamPathTemplate": "/api/rating",
@@ -78,11 +90,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/rating/{id}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5031
+          "Port": 5030
         }
       ],
       "UpstreamPathTemplate": "/api/rating/{id}",
@@ -94,11 +106,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/rating/movie/{id}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5031
+          "Port": 5030
         }
       ],
       "UpstreamPathTemplate": "/api/rating/movie/{id}",
@@ -106,11 +118,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/rating/user/{id}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5031
+          "Port": 5030
         }
       ],
       "UpstreamPathTemplate": "/api/rating/user/{id}",
@@ -122,11 +134,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/comment",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5041
+          "Port": 5040
         }
       ],
       "UpstreamPathTemplate": "/api/comment",
@@ -138,11 +150,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/comment/{id}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5041
+          "Port": 5040
         }
       ],
       "UpstreamPathTemplate": "/api/comment/{id}",
@@ -154,11 +166,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/comment/movie/{id}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5041
+          "Port": 5040
         }
       ],
       "UpstreamPathTemplate": "/api/comment/movie/{id}",
@@ -166,11 +178,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/comment/user/{id}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5041
+          "Port": 5040
         }
       ],
       "UpstreamPathTemplate": "/api/comment/user/{id}",
@@ -182,11 +194,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/authorisation",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5051
+          "Port": 5050
         }
       ],
       "UpstreamPathTemplate": "/api/authorisation",
@@ -194,6 +206,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:5021"
+    "BaseUrl": "http://localhost:5020"
   }
 }

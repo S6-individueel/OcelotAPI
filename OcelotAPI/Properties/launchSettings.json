@@ -29,10 +29,10 @@
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "dev"
+        "ASPNETCORE_ENVIRONMENT": "kube"
       },
       "publishAllPorts": true,
-      "useSSL": true
+      "useSSL": false
     }
   }
 }
