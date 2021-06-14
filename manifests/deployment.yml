@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: ocelotapi 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ocelotapi
+  template:
+    metadata:
+      labels:
+        app: ocelotapi 
+    spec:
+      containers:
+        - name: ocelotapi 
+          image: acrvod.azurecr.io/ocelotapi
+          ports:
+          - containerPort: 80
