@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '9b787bac-a0aa-4fc3-a27a-0c0d4ccafd67'
-  imageRepository: 'sindividueelocelotapi'
+  imageRepository: 'ocelotapi'
   containerRegistry: 'acrvod.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/OcelotAPI/Dockerfile'
   tag: '$(Build.BuildId)'
